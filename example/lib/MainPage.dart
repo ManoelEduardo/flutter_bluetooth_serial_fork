@@ -13,8 +13,10 @@ import './SelectBondedDevicePage.dart';
 // import './helpers/LineChart.dart';
 
 class MainPage extends StatefulWidget {
+  const MainPage({Key? key}) : super(key: key);
+
   @override
-  _MainPage createState() => new _MainPage();
+  _MainPage createState() => _MainPage();
 }
 
 class _MainPage extends State<MainPage> {
